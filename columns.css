@@ -1,0 +1,10 @@
+main {
+	column-width: 19.5em;
+	column-count: 2;
+}
+h1 {
+	column-span: all;
+}
+summary, dt, h1, h2 {
+	break-after: avoid;
+}

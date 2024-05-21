@@ -1,0 +1,25 @@
+summary {
+	cursor: pointer;
+}
+
+img.inline-icon {
+	width: 1em;
+	vertical-align: middle;
+	display: inline;
+}
+
+footer {
+	color: grey;
+}
+
+:target::before {
+	content: '';
+	background-size: 100%;
+	background-image: url('./pictures/tee.png');
+	width: 2lh;
+	height: 2lh;
+	vertical-align: middle;
+	display: inline-block;
+	position: absolute;
+	transform: translateX(-100%) translateY(-25%);
+}

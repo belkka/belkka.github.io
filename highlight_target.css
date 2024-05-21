@@ -1,0 +1,10 @@
+/* stolen from https://html.spec.whatwg.org/ */
+/* pls don't call the police */
+
+:target {
+	animation: 3s ease 0s 1 fade-target;
+}
+
+@keyframes fade-target {
+  0%, 50% { background: yellow }
+}
