@@ -16,8 +16,9 @@ footer {
 	content: '';
 	background-size: 100%;
 	background-image: url('./pictures/tee.png');
-	width: 2lh;
-	height: 2lh;
+	--side: 3em;
+	width: var(--side);
+	height: var(--side);
 	vertical-align: middle;
 	display: inline-block;
 	position: absolute;
