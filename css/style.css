@@ -15,7 +15,7 @@ footer {
 :target::before {
 	content: '';
 	background-size: 100%;
-	background-image: url('./pictures/tee.png');
+	background-image: url('../pictures/tee.png');
 	--side: 3em;
 	width: var(--side);
 	height: var(--side);
