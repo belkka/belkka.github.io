@@ -14,88 +14,46 @@
     <main>
         <h1>Now</h1>
         <small title="First update: 2024-05-13">
-            Last update: <time>2024-05-21</time>
+            Last update: <time>2024-06-11</time>
         </small>
 
         <ul>
+            <li title="My main experience is back-end development (3 years), but I'm also interested in related areas, like DevOps, System Administration, GNU/Linux and Cybersecurity.">
+                I've been unemployed for a while and am still looking for a job.
+            </li>
+
             <li>
-                I'm completing the
-                <a href="https://www.coursera.org/professional-certificates/google-cybersecurity">Google Cybersecurity</a>
-                certificate program, course 7/8.
-                Sometimes it's boring (either because I already know the subject
-                — as it was with GNU/Linux and SQL parts —
-                or because materials are very repetitive;
-                tasks and tests are often too easy to pass
-                without completing course materials),
-                so I often procrastinate and distract to do some random things,
-                like
+                While unemployed, I casually
                 <ul>
                     <li>
-                        creating this <code>/now</code> page
-                        (as well as my whole homepage earlier),
+                        explore random software
+                        (RSS readers, messaging apps, GNU/Linux distros, programming languages, command-line utilities),
+                        blogs, the Fediverse, networks.
+                        Since recently,
+                        I'm exploring the IRC ecosystem
+                        and have managed to make WeeChat somewhat usable for me.
                     </li>
                     <li>
-                        filling some bug reports for random software
-                        (<a rel="external"
-                            title="I'm new to mailing lists, so some of my replies were not sent the list"
-                            href="https://lists.sr.ht/~rjarry/aerc-devel/%3CEDE672E5-3F6F-402D-B1A4-5477183FC13C@ukr.net%3E"
-                            >aerc</a>,
-                        <a rel="external"
-                           title="I've reported the bug using e-mail"
-                           href="https://github.com/organicmaps/organicmaps/issues/8078"
-                            >Organic Maps</a>,
-                        <a rel="external"
-                           title="the bug was reported 10 years before me actually"
-                           href="https://github.com/tpope/vim-surround/issues/124#issuecomment-2123195018">vim-surround</a>),
+                        writing some small and medium-size bash or Python scripts.
+                        Today,
+                        I've even created a <a href="./bin">/bin</a> page
+                        to start publishing some of them.
                     </li>
-                    <li>
-                        exploring random software
-                        (RSS readers, messaging apps, package managers, GNU/Linux distros),
-                        blogs, fediverse.
-                    </li>
-                    <li>
-                        writing some bash or python scripts.
-                        Today I've created two short:
-
-                        <details>
-                            <summary>:help</summary>
-                            <code>
-                                <pre>
-#!/bin/bash -e
-vim "+help $*" +only</pre>
-                            </code>
-                        </details>
-
-                        <details>
-                            <summary>random.choice</summary>
-                            <code>
-                                <pre>
-#!/usr/bin/python3
-import random
-import sys
-import os.path
-
-
-self, *args = sys.argv
-if not args:
-    print(os.path.basename(self), "what?", file=sys.stderr)
-    sys.exit(1)
-
-print(random.choice(args))</pre>
-                            </code>
-                        </details>
-                    </li>
-
                 </ul>
             </li>
 
-            <li title="My main experience is back-end development (3 years), but I'm also interested in related areas like DevOps, System Administration, GNU/Linux and Cybersecurity (therefore considering junior positions).">
-                I've been unemployed for a while, still looking for a job.
+            <li>
+                I've recently earned the
+                <a rel="external" href="https://infosec.exchange/@belkka/112537946202338138">
+                    Google Cybersecurity Certificate</a>.
+                Gonna read some bookmarks made along the way.
+                <img alt="certificate of completion" src="https://images.credly.com/size/680x680/images/0bf0f2da-a699-4c82-82e2-56dcf1f2e1c7/image.png">
             </li>
+
             <li>
                 The war is going on in my country.
                 I'm still in my hometown,
-                but considering to move to the capital
+                but considering moving to <span title="Kyiv">the capital</span>
                 unless I find a [remote?] job while staying here.
             </li>
         </ul>
