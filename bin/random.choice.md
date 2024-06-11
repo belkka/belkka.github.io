@@ -1,3 +1,4 @@
+```python
 #!/usr/bin/python3
 """
 Usage: random.choice <arg>...
@@ -34,3 +35,4 @@ if not args:
     sys.exit(1)
 
 print(random.choice(args))
+```

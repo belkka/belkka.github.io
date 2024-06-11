@@ -12,4 +12,4 @@ Select and print a random argument.
 - args: non-empty list of arbitrary strings
 - stdout: random argument followed by a newline
 
-[:code](./random.choice.txt)
+[:code](./random.choice#belkka)
