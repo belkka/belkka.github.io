@@ -158,7 +158,23 @@
                 <summary>BTW</summary>
                 <span title=".pp.ua domains do not allow hiding registrant information">
                     You can get my e-mail and phone number using</span>
-                <a rel="external" href="https://en.wikipedia.org/wiki/WHOIS">WHOIS</a>
+                <a rel="external" href="https://en.wikipedia.org/wiki/WHOIS">WHOIS</a>.
+                <dl>
+                    <dt>Email</dt>
+                    <dd>
+                        <code>
+                            whois belkka.pp.ua
+                            | sed -n 's/Registrant Email://p'
+                        </code>
+                    </dd>
+                    <dt>Phone</dt>
+                    <dd>
+                        <code>
+                            whois belkka.pp.ua
+                            | sed -n 's/Registrant Phone://p'
+                        </code>
+                    </dd>
+                </dl>
             </details>
             <details>
                 <summary>BTW</summary>
